@@ -126,7 +126,7 @@ The script performs the following actions:
   "last_run_uuid": "ae5ebd34-f056-7110-dd68-7bc94bc3b0a0"
 }
 ```
-<img src='AMIimage.png'>
+<img src='pictures/AMIimage.png'>
 
 Use the provided `main.tf` configuration:
 
@@ -153,7 +153,7 @@ resource "aws_instance" "ec2" {
 # SSH to the instance
 ssh -i EC2_Keypair.pem ubuntu@<PUBLIC_IP>
 ```
-<img src='SSHLogin.png'>
+<img src='pictures/SSHLogin.png'>
 
 **Note**: For Amazon Linux 2023 AMIs, use `ec2-user` instead of `ubuntu`:
 
